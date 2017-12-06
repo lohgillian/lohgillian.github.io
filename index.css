@@ -1,0 +1,42 @@
+.firstclass{
+    background-color: pink; 
+    font-family: monospace;
+    font-size: 5em
+} 
+
+.secondclass{
+    background-color:paleturquoise; 
+    font-family: Courier New, Courier, monospace; 
+    font-size: 2em
+}
+
+body {
+    background-image:url(https://i.pinimg.com/736x/d6/8c/ea/d68cea7065cb32fd6f15120fce4d313f.jpg) 
+} 
+
+.circle {
+    width: 1500x;
+    border-radius: 500px; 
+}
+
+.big {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+
+.size-128 {
+    border: 1px rebeccapurple; 
+    position: relative;
+    top: 100px;
+    left: 50px;
+    width: 128px; 
+}
+
+.menuitem {
+    display: inline;
+    font-size: 3em;
+    background-color: pink;
+}
+
+
