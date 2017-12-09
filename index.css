@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image:url(https://i.pinimg.com/736x/d6/8c/ea/d68cea7065cb32fd6f15120fce4d313f.jpg) 
+    background-image:url(http://www.allwhitebackground.com/images/2/2283.jpg) 
 } 
 
 .circle {
@@ -39,4 +39,18 @@ body {
     background-color: pink;
 }
 
+.font-cardo{
+    background-color: pink; 
+    font-family: cardo; 
+    font-size: 5em
+}
 
+.font-lobstertwo{
+    font-family: lobstertwo; 
+    font-size: 4em    
+}
+
+.font-lobstertwosmaller{
+    font-family: lobstertwo; 
+    font-size: 3em    
+}

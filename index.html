@@ -7,39 +7,79 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">">    
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Cardo|Libre+Baskerville|Lobster+Two|Lora|Open+Sans|Source+Sans+Pro" rel="stylesheet">    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head> 
-<body>
-    <h1 class="firstclass"> Hello! <em>Welcome to my blog</em> </h1>
-    <h2 class="secondclass">My name is Gillian, and I'm a former graphic artist/illustrator turned online boutique owner/blogger. Welcome to my blog! Blogging has been a huge part of my life since back in my school days! I am an avid writer/photographer, and take a keen interest in various topics ranging from beauty, food, travel to lifestyle. Some of the things I love are art/design, music, animals, travel, food and writing</h2> 
-    <img class= "circle" src="figs.png" alt="200px">
-    <h2 class="secondclass">A believer and a dream chaser.</h2>    
 
-    <iframe width="800" height="505" class= "menuitem" src="https://www.youtube.com/embed/c8oEjfpfX-w" frameborder="0" allowfullscreen></iframe>
-    <iframe width="800" height="505" class= "menuitem" src="https://www.youtube.com/embed/c8oEjfpfX-w" frameborder="0" allowfullscreen></iframe>
+<body>
+    <div class="container">
     
-    <ui>
+        <h1 class="font-cardo"> Hello!</i></i><em>Welcome to my blog</em> <i class="fa fa-birthday-cake" aria-hidden="true"></i> </h1>
+        <h2 class="font-lobstertwosmaller">My name is Gillian, and I'm a former graphic artist/illustrator turned online boutique owner/blogger. Welcome to my blog! Blogging has been a huge part of my life since back in my school days! I am an avid writer/photographer, and take a keen interest in various topics ranging from beauty, food, travel to lifestyle. Some of the things I love are art/design, music, animals, travel, food and writing</h2> 
+        <img class= "circle" src="figs.png" alt="200px">
+        <iframe width="800" height="505" class= "menuitem" src="https://www.youtube.com/embed/c8oEjfpfX-w" frameborder="0" allowfullscreen></iframe>
+    
+        <div class="jumbotron">
+                <h1>Hello, world!</h1>
+                <p>...</p>
+                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4"> 
+                <img src="http://bartsimpsonpictures.squarelogic.net/bart-simpson-01.gif" width="200px">
+            </div>
+            <div class="col-md-4">
+                 <img src="http://bartsimpsonpictures.squarelogic.net/bart-simpson-01.gif" width="200px">
+            </div>
+            <div class="col-md-4">
+                 <img src="http://bartsimpsonpictures.squarelogic.net/bart-simpson-01.gif" width="200px">
+            </div>
+        </div>
+
+        <ui>
             <li class="menuitem">pears</li>
             <li class="menuitem">apple</li>
             <li class="menuitem">grapes</li>
             <li class="menuitem">orange</li>
-    </ui>
-
-    <div class="container">
-        <h1>hello world</h1>
-        <div class="row">
-            <div class="col-md-4">
-                <img src="http://bartsimpsonpictures.squarelogic.net/bart-simpson-01.gif" width="200px">
-                </div>
-            <div class="col-md-4">
-                    <img src="http://bartsimpsonpictures.squarelogic.net/bart-simpson-01.gif" width="200px">
-                </div>
-            <div class="col-md-4">
-                    <img src="http://bartsimpsonpictures.squarelogic.net/bart-simpson-01.gif" width="200px">
-                </div>
-
-                <button class="btn btn-primary">Contact</button>
-        </div>
+        </ui>
     
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class= font-lobstertwo>Write me a Message!</h1>
+                    <form method= "POST" 
+                            action="https://script.google.com/macros/s/AKfycbxOArCBKQ7wdS4KVpkul2BCrWkCKLYHZfn_AqBzfPxWhRibW6M/exec">
+                        <div>
+                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                            <label for="fname">First Name</label>
+                            <input type="text" id= fname name= "firstname" placeholder= "your name...">
+                        </div>
+
+                        <div>
+                            <i class="fa fa-id-card-o" aria-hidden="true"></i>
+                            <label for="lname">Last Name</label>
+                            <input type="text" id= lname name= "lastname" placeholder= "your name...">
+                        </div>
+        
+                        <div>
+                            <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+                            <label for= "email">Email Address</label>
+                            <input type="text" id= "email" name= "email" placeholder = "your email...">
+                        </div>
+
+                <button class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+
+
+
+
+       
+        
+
+
+    <div>          
 </body>
 </html>
 
