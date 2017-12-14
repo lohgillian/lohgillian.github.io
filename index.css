@@ -1,3 +1,8 @@
+
+body {
+    background-image:url(http://www.allwhitebackground.com/images/2/2283.jpeg) 
+} 
+
 .firstclass{
     background-color: pink; 
     font-family: monospace;
@@ -9,10 +14,6 @@
     font-family: Courier New, Courier, monospace; 
     font-size: 2em
 }
-
-body {
-    background-image:url(http://www.allwhitebackground.com/images/2/2283.jpg) 
-} 
 
 .circle {
     width: 1500x;
@@ -54,3 +55,4 @@ body {
     font-family: lobstertwo; 
     font-size: 3em    
 }
+
